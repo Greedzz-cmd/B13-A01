@@ -38,6 +38,7 @@ nav {
     gap: 341px;
     padding: 16px 100px 16px 140px;
     max-width: 1600px;
+    align-items: center;
 }
 
 nav ul {
@@ -50,7 +51,6 @@ nav ul {
 
 nav li a {
     text-decoration: none;
-    font-size: 16px;
     color: #000000;
 }
 
@@ -71,6 +71,7 @@ nav li a {
     background-color: #FFFFFF;
     padding: 8px 12px;
     border-radius: 1000px;
+    margin-bottom: 16px;
 }
 
 #banner .banner-content h3 {
@@ -84,4 +85,36 @@ nav li a {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 32px;        
+}
+#notes {
+    text-align: center;
+}
+#notes .section-heading {
+    color: #001931;
+    font-size: 48px;
+    padding-top: 48px;
+}
+
+#notes .note-text {
+    color: #627382;
+    margin-top: 16px;
+}
+
+#notes .note-box {
+    display: flex;
+    gap: 24px;
+    margin: 44px 120px 120px;
+}
+
+#notes .note-box .note-card {
+    box-shadow: 0 0 8px 0 #00000044;
+    padding: 69px 24px;
+    text-align: center;
+}
+
+#notes .note-box .note-card img {
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
