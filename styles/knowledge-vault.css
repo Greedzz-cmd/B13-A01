@@ -61,12 +61,15 @@ nav li a {
 }
 
 #banner {
-    background-image: url('/hero-bg.png');
+    background-image: url('../hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 115px 120px 179px;
     text-align: center;
     margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #banner .banner-content {
@@ -79,6 +82,7 @@ nav li a {
     padding: 8px 12px;
     border-radius: 1000px;
     margin-bottom: 16px;
+    width: fit-content;
 }
 
 #banner .banner-content h3 {
@@ -97,6 +101,10 @@ nav li a {
     text-align: center;
 }
 
+#notes .section-text {
+    padding-top: 16px;
+    color: #627382;
+}
 #notes .note-text {
     color: #627382;
     margin-top: 16px;
@@ -128,12 +136,14 @@ nav li a {
     padding: 0 120px 120px;
 }
 
-#second-brain .brain-text p {
+#second-brain .brain-text .solution p {
     color: #627382;
-    margin-bottom: 40px;
+    margin: 16px 0 40px;
 }
-
-#second-brain .brain-text li {
+#second-brain .brain-text ul i {
+    color: #30B868;
+}
+#second-brain .brain-text .solution li {
     margin-bottom: 16px;
     list-style: none;
 }    
@@ -141,7 +151,8 @@ nav li a {
     text-align: center;
     padding: 80px 20px;
     background-color: #F7F6F2;
-    margin-bottom: 120px;
+    margin: 2px 120px 120px;
+    border-radius: 12px;
 }
 #early-access .promo .promo-text {
     color: #627382;
@@ -150,4 +161,37 @@ nav li a {
 
 #early-access .promo .access-button {
     margin-bottom: 16px;
+}
+
+footer{
+    background-color: #001931;
+    padding: 120px 120px 0;
+}
+
+#footer-container .socials {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#footer-container .socials .social-links a img {
+    margin-top: 16px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#footer-container .socials .social-links p {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+}
+#footer-container .socials .social-links .x, .in, .fb{
+    margin-right: 16px;
+}
+
+#footer-container .copyright {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0 30px;
 }
