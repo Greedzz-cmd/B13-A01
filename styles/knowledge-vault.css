@@ -61,7 +61,7 @@ nav li a {
 }
 
 #banner {
-    background-image: url('../images/hero-bg.png');
+    background-image: url('../images/hero-bg.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-repeat: no-repeat;
     background-size: cover;
     padding: 115px 120px 179px;
@@ -156,6 +156,9 @@ nav li a {
 #early-access .promo .promo-text {
     color: #627382;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 #early-access .promo .access-button {
