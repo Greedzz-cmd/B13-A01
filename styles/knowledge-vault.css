@@ -136,4 +136,18 @@ nav li a {
 #second-brain .brain-text li {
     margin-bottom: 16px;
     list-style: none;
+}    
+#early-access {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #F7F6F2;
+    margin-bottom: 120px;
+}
+#early-access .promo .promo-text {
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+#early-access .promo .access-button {
+    margin-bottom: 16px;
 }
