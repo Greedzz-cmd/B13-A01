@@ -67,9 +67,6 @@ nav li a {
     padding: 115px 120px 179px;
     text-align: center;
     margin-bottom: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #banner .banner-content {
@@ -81,7 +78,7 @@ nav li a {
     background-color: #FFFFFF;
     padding: 8px 12px;
     border-radius: 1000px;
-    margin-bottom: 16px;
+    margin: 115px 590px 16px;
     width: fit-content;
 }
 
@@ -92,7 +89,6 @@ nav li a {
 }
 
 #banner .banner-content p {
-
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 32px;        
@@ -120,6 +116,8 @@ nav li a {
     box-shadow: 0 0 8px 0 #00000044;
     padding: 69px 24px;
     text-align: center;
+    width: 322px;
+    height: 300px;
 }
 
 #notes .note-box .note-card img {
@@ -127,6 +125,7 @@ nav li a {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    padding: 14px 14px;
 }
 
 #second-brain {
