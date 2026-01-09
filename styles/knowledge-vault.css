@@ -32,6 +32,12 @@
 .color-green {
     color: #30B868;
 }
+
+.section-heading {
+    color: #001931;
+    font-size: 48px;
+    padding-top: 16px;
+}
 /* main */
 nav {
     display: flex;
@@ -60,6 +66,7 @@ nav li a {
     background-size: cover;
     padding: 115px 120px 179px;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 #banner .banner-content {
@@ -89,11 +96,6 @@ nav li a {
 #notes {
     text-align: center;
 }
-#notes .section-heading {
-    color: #001931;
-    font-size: 48px;
-    padding-top: 48px;
-}
 
 #notes .note-text {
     color: #627382;
@@ -117,4 +119,21 @@ nav li a {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+
+#second-brain {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 0 120px 120px;
+}
+
+#second-brain .brain-text p {
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+#second-brain .brain-text li {
+    margin-bottom: 16px;
+    list-style: none;
 }
